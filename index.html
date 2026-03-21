@@ -5,70 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSI-PCE | Student Body Chapter</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="navbar">
         <div class="logo">CSI-PCE</div>
         <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">Faculty</a></li>
-            <li><a href="#">Committee</a></li>
-            <li><a href="#">Bytestream</a></li>
-            <li><a href="#">COY</a></li>
-            <li><a href="#">Devs</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#bytestream">Bytestream</a></li>
+            <li>
+                <button id="theme-toggle" class="toggle-btn" aria-label="Toggle Theme">
+                    <span id="toggle-icon">🌙</span>
+                </button>
+            </li>
         </ul>
     </nav>
 
-    <header class="hero">
+    <header class="hero" id="home">
         <div class="hero-content">
-            <h1>Building Future Technology Leaders</h1>
-            <p>A Student Body Chapter of Pillai College of Engineering (Autonomous)</p>
-            <button class="cta-btn">Explore Events</button>
+            <span class="badge">Student Chapter</span>
+            <h1>Building Future <br><span class="highlight">Technology Leaders</span></h1>
+            <p>The Computer Society of India student branch at Pillai College of Engineering (Autonomous).</p>
+            <div class="hero-btns">
+                <button class="cta-btn">Latest Events</button>
+                <button class="secondary-btn">Learn More</button>
+            </div>
         </div>
     </header>
 
-    <section class="events-section">
-        <h2 class="section-title">Upcoming & Recent Events</h2>
+    <section class="events-section" id="events">
+        <h2 class="section-title">Upcoming Events</h2>
         <div class="event-grid">
             <div class="event-card">
-                <div class="event-date">15 Jan 2026</div>
-                <h3>WebScoop</h3>
-                <p>Mastering Modern Web Scraping with Python. Learn to turn live websites into structured datasets.</p>
-                <a href="#" class="read-more">Register Now →</a>
+                <div class="event-date">MAR 2026</div>
+                <h3>WebScoop 2.0</h3>
+                <p>An intensive workshop on modern web scraping techniques and data automation.</p>
+                <a href="#" class="read-more">Register →</a>
             </div>
             <div class="event-card">
-                <div class="event-date">19 Aug 2025</div>
-                <h3>Vibe Coding</h3>
-                <p>A 3-day journey blending creativity and AI tools to help you code smarter and build projects.</p>
-                <a href="#" class="read-more">View Details →</a>
-            </div>
-            <div class="event-card">
-                <div class="event-date">08 Feb 2026</div>
+                <div class="event-date">FEB 2026</div>
                 <h3>Code Arena</h3>
-                <p>A competitive coding challenge for SY and TY students to test DSA and logic skills.</p>
-                <a href="#" class="read-more">Read More →</a>
+                <p>A high-stakes competitive programming contest for aspiring engineers.</p>
+                <a href="#" class="read-more">View Ranklist →</a>
+            </div>
+            <div class="event-card">
+                <div class="event-date">AUG 2025</div>
+                <h3>Vibe Coding</h3>
+                <p>Blending AI tools with creative coding to build next-gen applications.</p>
+                <a href="#" class="read-more">Gallery →</a>
             </div>
         </div>
-    </section>
-
-    <section class="bytestream-teaser">
-        <h2>Bytestream Magazine</h2>
-        <p>The ultimate technical magazine for tech enthusiasts. Insights into AI, Blockchain, and Cybersecurity.</p>
-        <button class="secondary-btn">Read Latest Issue</button>
     </section>
 
     <footer>
-        <div class="footer-info">
-            <p><strong>Reach out to us:</strong> csipce@mes.ac.in</p>
-            <p>Pillai Campus, Sector 16, New Panvel</p>
-        </div>
-        <div class="footer-bottom">
-            <p>All rights reserved © CSI-PCE 2022-present</p>
-        </div>
+        <p>© 2026 CSI-PCE. Designed for Pillai College of Engineering.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

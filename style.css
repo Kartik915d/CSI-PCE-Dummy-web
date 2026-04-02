@@ -110,5 +110,23 @@ body {
     cursor: pointer;
     margin-right: 10px;
 }
+/* Event Cards */
+.events-section { padding: 60px 8%; }
 
+.event-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+    margin-top: 40px;
+}
 
+.event-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 30px;
+    border-radius: 16px;
+}
+.event-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-blue);
+}

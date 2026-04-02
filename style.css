@@ -130,3 +130,7 @@ body {
     transform: translateY(-5px);
     border-color: var(--primary-blue);
 }
+
+.event-date { color: var(--primary-blue); font-weight: bold; margin-bottom: 10px; }
+
+footer { text-align: center; padding: 40px; border-top: 1px solid var(--border-color); color: var(--text-muted); }

@@ -10,16 +10,7 @@
     --hero-grad: radial-gradient(circle at top, #1a2332 0%, #0b0e14 70%);
 }
 
-[data-theme="light"] {
-    --bg-color: #f8f9fa;
-    --nav-bg: rgba(255, 255, 255, 0.8);
-    --card-bg: #ffffff;
-    --text-main: #1a1a1a;
-    --text-muted: #666666;
-    --primary-blue: #0056b3;
-    --border-color: rgba(0, 0, 0, 0.1);
-    --hero-grad: radial-gradient(circle at top, #e2e8f0 0%, #f8f9fa 70%);
-}
+
 
 * {
     margin: 0;

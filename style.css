@@ -36,18 +36,7 @@ body {
 }
 
 /* Navbar with Blur */
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.2rem 8%;
-    background: var(--nav-bg);
-    backdrop-filter: blur(12px);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    border-bottom: 1px solid var(--border-color);
-}
+
 
 .logo {
     font-size: 1.5rem;
